@@ -1,14 +1,32 @@
 * {
     box-sizing: border-box;
 }
+
+#sobre-mi{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+
+}
 #sobre-mi img {
     border-radius: 50%;
     width: 150px;
-    height: auto;
     margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    
+}
+
+:root{
+    --color-primary: #333;
+    --color-accent: #e01212;
+    --color-text: #fff;
 }
 #sobre-mi h1{
-    color: #e01212;
+    color: var(--color-accent);
     margin-bottom: 0.5em;
 }
 
@@ -27,18 +45,12 @@
 }
 
 body{
+    background-color: var(--color-primary);
+    color: var(--color-text);
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #ffffff;
-
-}
-
-#sobre-mi{
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
 
 }
 
